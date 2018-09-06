@@ -1,0 +1,54 @@
+.title {
+  border: 1px solid rgb(228, 182, 182);
+  background: rgb(120, 224, 123);
+  text-decoration-style: solid;
+  border-radius: 5px;
+}
+
+.movie-card {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+}
+.movie-image {
+  width: 200px;
+  height: 300px;
+  box-shadow: 5px 10px #cccccc;
+  margin-left: 10px;
+}
+.loading {
+  text-align: center;
+  animation: fadein 6s;
+  -moz-animation: fadein 6s; /* Firefox */
+  -webkit-animation: fadein 6s; /* Safari et Chrome */
+  -o-animation: fadein 6s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0, 5;
+  }
+}
+@-moz-keyframes fadein {
+  /* sur Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0, 5;
+  }
+}
+@-webkit-keyframes fadein {
+  /* sur Safari et Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0, 5;
+  }
+}
